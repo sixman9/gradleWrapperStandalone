@@ -16,11 +16,13 @@ If you project is empty-ish and you want something useful, try:
                 OR
     gradlew init --type "scala-library"
 
-The above assumes you have a [Java JVM][1] installed (of course).
+The above assumes you have a [Java JVM][1], [Git][3] and/or a [Git Client][4] installed (of course).  
 
-Gradle Wrapper version = **2.0**
+Gradle Wrapper version = **2.0**  
 
-*This is a small attempt to beat Gradle's 'chicken or the egg' paradox, i.e. no Gradle=>no Gradle Wrapper.
+*This is a small attempt to beat Gradle's 'chicken or the egg' paradox, i.e. no Gradle=>no Gradle Wrapper.  
 
 [1]: https://www.java.com
 [2]: http://www.gradle.org
+[3]: http://git-scm.com
+[4]: http://www.sourcetreeapp.com
