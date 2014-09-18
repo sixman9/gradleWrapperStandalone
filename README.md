@@ -1,3 +1,7 @@
+#Intro
+Pulling from this repo, as a new git remote within your existing git project(s), will give you Gradle [wrapper] build goodness where a Gradle install wasn;t available, locally (i.e. beats the chicken or the egg)
+
+#Getting Started adding Gradle wrapper support to your project
 To add the Gradle wrapper to you git-based project, issue the following (can be done on 1-line)
 
     git remote add gradlewrapper https://github.com/sixman9/gradleWrapperStandalone.git; git pull gradlewrapper master  
