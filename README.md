@@ -1,5 +1,5 @@
 #Intro
-Pulling from this repo, as a new git remote within your existing git project(s), will give you Gradle [wrapper] build goodness where a Gradle install wasn;t available, locally (i.e. beats the chicken or the egg)
+Pulling from this repo, **as a new git remote within your existing git project(s)** (see below), will give you Gradle [wrapper] build goodness, usually where a local Gradle install isn't available*.
 
 #Getting Started adding Gradle wrapper support to your project
 To add the Gradle wrapper to you git-based project, issue the following (can be done on 1-line)
@@ -17,5 +17,7 @@ If you project is empty-ish and you want something useful, try:
     gradlew init --type "scala-library"
 
 The above assumes you have a [Java JVM][1] installed (of course).
+
+*This is a small attempt to beat Gradle's 'chicken or the egg' paradox, i.e. no Gradle=>no Gradle Wrapper.
 
 [1]: https://www.java.com
