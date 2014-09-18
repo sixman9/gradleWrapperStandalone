@@ -8,8 +8,10 @@ Then, if you like to convert a Maven 'pom.xml' file (to a new 'build.gradle'), f
 
 If you project is empty-ish and you want something useful, try:  
 
-   gradlew init --type "java-library"
+    gradlew init --type "java-library"
                 OR
-   gradlew init --type "scala-library"
+    gradlew init --type "scala-library"
 
-All of the above assumes you have a Java JVM installed (of course).
+The above assumes you have a [Java JVM][1] installed (of course).
+
+[1]: https://www.java.com
