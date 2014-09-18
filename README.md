@@ -1,5 +1,5 @@
 #Intro
-Pulling from this repo, **as a new git remote within your existing git project(s)** (see below), will give you Gradle [wrapper] build goodness, usually where a local Gradle install isn't available*.
+Pulling from this repo, **as a new git remote within your existing git project(s)** (see below), will give you [Gradle][2] [wrapper] build goodness, usually where a local [Gradle][2] install isn't available*.
 
 #Getting Started adding Gradle wrapper support to your project
 To add the Gradle wrapper to you git-based project, issue the following (can be done on 1-line)
@@ -18,6 +18,9 @@ If you project is empty-ish and you want something useful, try:
 
 The above assumes you have a [Java JVM][1] installed (of course).
 
+Gradle Wrapper version = **2.0**
+
 *This is a small attempt to beat Gradle's 'chicken or the egg' paradox, i.e. no Gradle=>no Gradle Wrapper.
 
 [1]: https://www.java.com
+[2]: http://www.gradle.org
