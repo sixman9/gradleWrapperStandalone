@@ -2,9 +2,9 @@
 Pulling from this repo, **as a new git remote within your existing git project(s)** (see below), will give you [Gradle][2] [wrapper] build goodness, usually where a local [Gradle][2] install isn't available*.
 
 #Getting started adding Gradle wrapper support to your project
-To add the Gradle wrapper to you git-based project, issue the following (can be done on 1-line)
+Pull the Gradle wrapper into your git project with the following command line (will *not* overwrite your README.md, OK.)
 
-    git remote add gradlewrapper https://github.com/sixman9/gradleWrapperStandalone.git; git pull gradlewrapper master  
+    git init -q; git config core.sparseCheckout true; git remote add gradlewrapper https://github.com/sixman9/gradleWrapperStandalone.git; echo $'*\n!README.md' > .git/info/sparse-checkout; git pull gradlewrapper master  
 
 Then, if you'd like to convert a Maven 'pom.xml' file (to a new 'build.gradle'), for instance, issue:  
 
