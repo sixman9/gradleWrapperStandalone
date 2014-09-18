@@ -6,7 +6,7 @@ To add the Gradle wrapper to you git-based project, issue the following (can be 
 
     git remote add gradlewrapper https://github.com/sixman9/gradleWrapperStandalone.git; git pull gradlewrapper master  
 
-Then, if you like to convert a Maven 'pom.xml' file (to a new 'build.gradle'), for instance, issue:  
+Then, if you'd like to convert a Maven 'pom.xml' file (to a new 'build.gradle'), for instance, issue:  
 
     gradlew init  
 
