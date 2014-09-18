@@ -2,7 +2,7 @@
 Pulling from this repo, **as a new git remote within your existing git project(s)** (see below), will give you [Gradle][2] [wrapper] build goodness, usually where a local [Gradle][2] install isn't available*.
 
 #Getting started adding Gradle wrapper support to your project
-Pull the Gradle wrapper into your git project with the following command line (will *not* overwrite your README.md, OK.)
+Pull the Gradle wrapper into your git project with the following command line (will *not* overwrite your README.md, OK):
 
     git init -q; git config core.sparseCheckout true; git remote add gradlewrapper https://github.com/sixman9/gradleWrapperStandalone.git; echo $'*\n!README.md' > .git/info/sparse-checkout; git pull gradlewrapper master  
 
