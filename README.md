@@ -18,7 +18,7 @@ If you project is empty-ish and you want something useful, try:
 
 The above assumes you have a [Java JVM][1], [Git][3] and/or a [Git Client][4] installed (of course).  
 
-Gradle Wrapper version = **2.0**  
+Gradle Wrapper version = **2.4**  
 
 *This is a small attempt to beat Gradle's 'chicken or the egg' paradox, i.e. no Gradle=>no Gradle Wrapper.  
 
